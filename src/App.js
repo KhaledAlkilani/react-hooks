@@ -3,6 +3,7 @@ import Effect from "./hooks/Effect/Effect"
 import Ref from "./hooks/Ref/Ref"
 import Memo from "./hooks/Memo/Memo"
 import Callback from "./hooks/Callback/Callback"
+import Context from "./hooks/Context/Context"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
      {/* <Effect /> */}
      {/* <Ref /> */}
      {/* <Memo /> */}
-     <Callback/>
+     {/* <Callback/> */}
+     <Context />
     </div>
   );
 }
