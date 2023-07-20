@@ -4,6 +4,7 @@ import Ref from "./hooks/Ref/Ref"
 import Memo from "./hooks/Memo/Memo"
 import Callback from "./hooks/Callback/Callback"
 import Context from "./hooks/Context/Context"
+import Reducer from "./hooks/Reducer/Reducer"
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
      {/* <Ref /> */}
      {/* <Memo /> */}
      {/* <Callback/> */}
-     <Context />
+     {/* <Context /> */}
+     <Reducer />
     </div>
   );
 }
